@@ -40,3 +40,16 @@ SELECT COUNT(title), title
 FROM mentorship_eligibilty
 GROUP BY title
 ORDER BY count DESC
+
+SELECT COUNT(title)
+--INTO retiring_titles
+FROM unique_titles
+
+SELECT * FROM retiring_titles
+
+
+SELECT * FROM retiring_titles
+
+SELECT SUM(count)
+FROM retiring_titles as r
+WHERE (r.title = 'Senior Staff') OR (r.title = 'Staff')
