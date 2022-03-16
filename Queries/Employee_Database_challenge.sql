@@ -35,5 +35,8 @@ WHERE (de.to_date = '9999-01-01')
 AND (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no
 
-SELECT * FROM titles
-WHERE titles.emp_no = '10291'
+SELECT COUNT(title), title
+--INTO retiring_titles
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY count DESC
