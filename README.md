@@ -21,4 +21,5 @@ The purpose of this analysis is to organize the data to analyze which employees 
 The amount of roles we need to fill are our Engineers with over 35,000 employees retiring and our Staff with over 30,000 retiring. A total of 72,458 roles will need to be filled as the "silver tsunami" makes it's impact. 
 
 2. ![Image](https://github.com/evanbruno617/Pewlett-Hackard-Analysis/blob/main/Resources/mentor.png)
+
 There are not enough qualified retirement-ready employees to mento rthe next generation of employees as they are far fewer than the amount that are retiring. In these positions we will have to conduct group mentorships in order to hire as many employees as possible before our's retires. 
